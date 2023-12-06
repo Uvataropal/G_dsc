@@ -1,0 +1,60 @@
+body{
+  background-color: rgb(94, 91, 91);
+}
+main{
+  background-color: rgba(38, 30, 30, 0.984);
+  width:400px ;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+div{
+  width: 90%;
+  margin: 0 auto;
+}
+.buttons{
+  width: 300px;
+}
+button{
+  color: white;
+  background-color: rgb(97, 70, 2);
+  border-radius: 50%;
+  padding: 10px 14px;
+  border: none;
+  margin: 5px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 25px;
+}
+button:hover{
+  background-color: #5b5b5b;
+}
+.js-button-plus,
+.js-button-minus,
+.js-button-multiply,
+.js-button-divide{
+  background-color: rgb(98, 0, 200);
+  color: white;
+}
+.js-button-clear{
+  /* width: 100px; */
+  border-radius: 90px;
+  display: inline;
+  align-items: right;
+  /* text-align: right; */
+  position: relative;
+  /* left: 110px; */
+}
+input{
+  padding: 10px;
+  width: 280px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  text-align: right;
+}

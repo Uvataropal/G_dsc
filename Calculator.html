@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="./css/Style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main class="w3-container">
+      <div class="buttons">
+        <input type="text" class="text" readonly />
+        <br />
+        <br />
+        <button onclick="addToCalculation('1')" class="js-button-1">1</button>
+        <button onclick="addToCalculation('2')" class="js-button-2">2</button>
+        <button onclick="addToCalculation('3')" class="js-button-3">3</button>
+        <button onclick="back()" class="js-button-backSpace material-icons">
+          backspace
+        </button>
+        <br />
+        <br />
+        <button onclick="addToCalculation('4'); display() " class="js-button-4">
+          4
+        </button>
+        <button onclick="addToCalculation('5')" class="js-button-5">5</button>
+        <button onclick="addToCalculation('6') " class="js-button-6">6</button>
+        <button onclick="addToCalculation(' + ')" class="js-button-plus">
+          +
+        </button>
+        <br />
+        <br />
+        <button onclick="addToCalculation('7')" class="js-button-7">7</button>
+        <button onclick="addToCalculation('8')" class="js-button-8">8</button>
+        <button onclick="addToCalculation('9')" class="js-button-9">9</button>
+        <button onclick="addToCalculation(' - ')" class="js-button-minus">
+          -
+        </button>
+        <br />
+        <br />
+        <button onclick="addToCalculation('0')" class="js-button-zero">
+          0
+        </button>
+        <button onclick="addToCalculation('.')" class="js-button-dot">.</button>
+        <button onclick="addToCalculation(' / ')" class="js-button-divide">
+          /
+        </button>
+        <button onclick="addToCalculation(' * ')" class="js-button-multiply">
+          *
+        </button>
+        <br />
+        <br />
+        <button onclick="calculate()" class="js-button-equal">=</button>
+        <!-- <button class="js-button-leftBracket">(</button>
+    <button class="js-button-rightBracket">)</button> -->
+        <button onclick="clearDisplay()" class="js-button-clear">C</button>
+      </div>
+    </main>
+    <script src="./js/Script.js"></script>
+  </body>
+</html>
